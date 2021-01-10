@@ -40,5 +40,5 @@ console.log("i" , i); // output -> 2
 console.log("i+=1" , i+=1); // output -> 3
 console.log("++i" , ++i); // output -> 4
 console.log("i=i++" , i=i++); // output -> 4
-console.log("i=i++" , i=i++); // output -> 4 (this does not increment so we wan't use it in a for loop,
+console.log("i=i++" , i=i++); // output -> 4 (this does not increment so we can't use it in a for loop,
 // it returns the initial value of i and then increments so it will never change)
