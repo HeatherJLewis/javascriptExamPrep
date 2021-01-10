@@ -12,4 +12,13 @@ confirm();
 prompt();
 * creates a pop up alert box which contains the string that's passed into the alert function, an 'ok' button, a 'cancel' button and a text box for user input
 * used if you want user to enter a value before entering the page
+
+What are the return values for each of them?
+alert();
+* no return value
+confirm();
+* returns true if user clicks ok or false if user clicks cancel
+prompt();
+* returns the input value if the user clicks ok or null if the user clicks cancel
+
 */
