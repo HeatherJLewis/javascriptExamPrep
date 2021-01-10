@@ -7,4 +7,4 @@ inlcudes: Number; Boolean; String; Null; Undefined; typeof operator; type checki
 ## [String Operations](./example4.js)
 ## [Nesting](./example5.js)
 ## [Initialisation](./example6.js)
-## formatting numbers;
+## Formatting numbers;

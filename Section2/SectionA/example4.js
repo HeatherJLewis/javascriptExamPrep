@@ -3,7 +3,7 @@
 // Initialising a string:
 
 let stringA = "Hello World"; // typeof - string; use this one
-let stringB = new String("Hello World"); // typeof - object; don't use this one
+let stringB = new String("  Hello World  "); // typeof - object; don't use this one
 
 console.log(typeof stringA, typeof stringB);
 
@@ -30,8 +30,8 @@ console.log(stringA.replace('o', '*')); // replaces first instance of o
 
 console.log(stringA.search("lo "));
 
-console.log(stringA.slice(3)); // does not mutate original string
-console.log(stringA.slice(3, 8));
+console.log(stringA.slice(3)); // does not mutate original string -> slice after the 4th character
+console.log("HERE", stringA.slice(3, 8)); // slices after the 4th character and after the 8th character so it does not include the character at index 3 or at index 8
 
 console.log(stringA.split()); // does not mutate original string
 console.log(stringA.split(""));
@@ -42,3 +42,6 @@ console.log(stringA.substring(1, 3));
 
 console.log(stringA.toLowerCase());
 console.log(stringA.toUpperCase());
+
+console.log(stringB);
+console.log(stringB.trim()); // trims white space

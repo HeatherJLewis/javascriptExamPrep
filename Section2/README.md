@@ -1,16 +1,16 @@
 # Interact with HTML Forms
 
 ## [Section A](./SectionA/README.md)
-Program with JavaScript Operators, Methods, and Keywords
+Declare and use variables of primitive data types.
 
 ## [Section B](./SectionB/README.md)
-Program with Variables, Data Types, and Functions
+Declare and use arrays
 
 ## [Section C](./SectionC/README.md)
-Implement and Analyze Decisions and Loops
+Complete and debug code that uses objects.
 
 ## [Section D](./SectionD/README.md)
-Interact with the Document Object Model
+Complete and debug code that uses built-in Math functions.
 
 ## [Section E](./SectionE/README.md)
-Interact with HTML Forms
+Complete and debug a function that accepts parameters and returns a value.
