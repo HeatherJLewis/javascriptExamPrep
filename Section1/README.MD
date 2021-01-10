@@ -1,16 +1,16 @@
-# Interact with HTML Forms
+# Program with JavaScript Operators, Methods, and Keywords
 
 ## [Section A](./SectionA/README.md)
-Program with JavaScript Operators, Methods, and Keywords
+Complete or debug code that uses assignment and arithmetic operators.
 
 ## [Section B](./SectionB/README.md)
-Program with Variables, Data Types, and Functions
+Apply JavaScript best practices.
 
 ## [Section C](./SectionC/README.md)
-Implement and Analyze Decisions and Loops
+Evaluate the use of inline and external scripts.
 
 ## [Section D](./SectionD/README.md)
-Interact with the Document Object Model
+Implement exception handling.
 
 ## [Section E](./SectionE/README.md)
-Interact with HTML Forms
+Complete and debug code that interacts with the Browser Object Model (BOM)
