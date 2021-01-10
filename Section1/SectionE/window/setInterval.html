@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>setInterval/clearInterval example</title>
+
+  <script>
+    var intervalId;
+
+    function changeColor() {
+      intervalId = setInterval(flashText, 1000);
+    }
+
+    function flashText() {
+      var para = document.getElementById('my_box');
+      if(para.style.color === 'red') {
+        para.style.color = 'blue'
+      } else {
+        para.style.color = 'red'
+      }
+    }
+
+    function stopTextColor() {
+      clearInterval(intervalId);
+    }
+  </script>
+</head>
+
+<body onload="changeColor();">
+  <div >
+    <p id="my_box">Hello World</p>
+  </div>
+
+  <button onclick="stopTextColor();">Stop</button>
+</body>
+</html>
