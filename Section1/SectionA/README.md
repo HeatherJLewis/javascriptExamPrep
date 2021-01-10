@@ -2,7 +2,7 @@
 
 ## 1, [assignment;](./example1.js)
 
-## 2, [arithemtic operators](./example2.js)
+## 2, [arithmetic operators](./example2.js)
 includes: addition; subtraction; division; multiplication; modulus;
 ## 3, [increment & decrement;](./example3.js)
 
