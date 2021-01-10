@@ -1,3 +1,6 @@
-# Title
+# Apply JavaScript best practices.
 
-## [Link](./example.js)
+## [Explanations](./example.md)
+includes: Comments; indentations; naming conventions;
+noscript; constants; reserved keywords; debugger
+keyword; setting breakpoints; console.log
