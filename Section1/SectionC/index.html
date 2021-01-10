@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<head>
+    <title>script loading</title>
+    <script>
+        let d = new Date();
+        alert("Today's date is " + d);
+        function replaceParagraph(){
+            document.body.innerHTML = "<h1>Today's date is " + d + "</h1>"
+        }
+    </script>
+</head>
+<body onload="replaceParagraph()">
+    <div>
+        <h1>Loading JS Scripts</h1>
+        <h2>Script in HEAD</h2>
+        <p id="headScript">The paragraph below is added using javascript as the page is loading</p>
+        <h2>Script at End of BODY</h2>
+        <p>This button has a function located at the end of the script. It is not required on loading so the page loads and then the script can be executed</p>
+        <button onclick="clickButton()">Click Me</button>
+        <a href="https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html"></a>
+    </div>
+</body>
+<script>
+    function clickButton(){alert("Hello There")}
+</script>

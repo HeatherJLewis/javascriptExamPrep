@@ -1,3 +1,5 @@
-# Title
+# Evaluate the use of inline and external scripts.
 
-## [Link](./example.js)
+## [scripts](./example.md)
+includes: When to use, how to use, and what happens when
+both are used
