@@ -1,3 +1,4 @@
-# Title
+# Implement exception handling
 
-## [Link](./example.js)
+## [Implement exception handling](./example.js)
+Includes: try; catch; finally
