@@ -22,7 +22,7 @@ console.log("getFullYear" , myDate1.getFullYear());
 console.log("getHours" , myDate1.getHours()) // output -> 8 - full hours since midnight
 console.log("getMilliseconds" , myDate1.getMilliseconds())
 console.log("getMinutes" , myDate1.getMinutes()) // output ->
-console.log("getMinutes" , myDate1.getMinutes()) // output ->
+console.log("getMonth" , myDate1.getMonth()) // output -> 0 indexed
 console.log("getSeconds" , myDate1.getSeconds()) // output ->
 console.log("getTime" , myDate1.getTime()) // output ->
 
