@@ -1,3 +1,6 @@
-# Title
+# Evaluate expressions that use logical and comparison operators.
 
-## [Link](./example.js)
+## [Overview](./example.js)
+includes:  ==; !=; <, >; <=; >=; !; &&; ||
+
+## [Order of Precedence](./example2.js)
