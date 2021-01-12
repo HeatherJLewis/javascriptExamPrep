@@ -1,16 +1,10 @@
-# Interact with HTML Forms
+# Implement and Analyze Decisions and Loops
 
 ## [Section A](./SectionA/README.md)
-Program with JavaScript Operators, Methods, and Keywords
+Evaluate expressions that use logical and comparison operators.
 
 ## [Section B](./SectionB/README.md)
-Program with Variables, Data Types, and Functions
+Complete and debug decision statements.
 
 ## [Section C](./SectionC/README.md)
-Implement and Analyze Decisions and Loops
-
-## [Section D](./SectionD/README.md)
-Interact with the Document Object Model
-
-## [Section E](./SectionE/README.md)
-Interact with HTML Forms
+Complete and debug loops

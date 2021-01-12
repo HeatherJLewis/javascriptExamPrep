@@ -1,16 +1,14 @@
-# Interact with HTML Forms
+# Interact with the Document Object Model
 
 ## [Section A](./SectionA/README.md)
-Program with JavaScript Operators, Methods, and Keywords
+Identify and construct the Document Object Model (DOM) tree.
 
 ## [Section B](./SectionB/README.md)
-Program with Variables, Data Types, and Functions
+Identify and handle HTML events.
 
 ## [Section C](./SectionC/README.md)
-Implement and Analyze Decisions and Loops
+Complete and debug code that outputs to an HTML document.
 
 ## [Section D](./SectionD/README.md)
-Interact with the Document Object Model
-
-## [Section E](./SectionE/README.md)
-Interact with HTML Forms
+Complete and debug code that locates, modifies, and adds HTML elements and
+attributes.
