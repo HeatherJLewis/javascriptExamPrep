@@ -1,4 +1,4 @@
-# Title Declare and use arrays
+# Declare and use arrays
 
 ## [Overview](./example1.js)
 includes: single-dimensional: iteration; initialization; array definition; length; accessing an element; understanding multi-dimensional array

@@ -1,3 +1,3 @@
-# Title
+# Complete and debug code that uses built-in Math functions.
 
-## [Link](./example.js)
+## [Maths Functions](./example1.js)
