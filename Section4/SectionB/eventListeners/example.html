@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>events</title>
+</head>
+<body>
+    <h1 id="click-event-internal" onclick="clickMe()">Click Me In Script Tag</h1>
+    <h1 id="click-event-external" onclick="clickMe2()">Click Me in External Script</h1>
+    <h1 id="click-event-ext">Click Me in External Script - all external</h1>
+    <h1 id="click-event-listener">Click Me in External Script - all external with event listener</h1>
+    <script>
+        function clickMe(){
+            alert("Hello")
+        }
+    </script>
+    <script src="./example.js"></script>
+</body>
