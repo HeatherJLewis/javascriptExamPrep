@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>onload events</title>
+    <script>
+        function onloadFunc(){
+            alert("Hello");
+            const myPara = document.getElementById("my-para");
+            myPara.innerHTML = "Howdy";
+        }
+    </script>
+    <script src="./example.js"></script>
+</head>
+<body onload="onloadFunc()">
+    <div>
+        <h1>onload events</h1>
+        <p id="my-para"></p>
+    </div>
+    <input type="text" id="input-box" value="">
+</body>
+
+<!-- onload can be added to:
+<body>
+    <iFrame>
+    </iFrame>
+    <img src="" alt="">
+    <input type="">
+    <link rel="stylesheet" href="">
+    <script></script>
+    <style></style>
+</body> -->
