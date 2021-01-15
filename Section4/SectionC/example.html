@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>innerHTML</title>
+</head>
+<body>
+    <div>
+        <h1>How to use innerHTML</h1>
+        <p id="my-para">This is a paragaph</p>
+        <input in="my-button" type="button" value="Click Me" onclick="changePara()">
+    </div>
+    <script>
+        function changePara(){
+            const myPara = document.getElementById("my-para");
+            myPara.innerHTML = "This is not a paragraph! :)"
+        };
+    </script>
+</body>
+
+<!-- Could also use textContent = "" -->
