@@ -1,3 +1,5 @@
-# Title
+# Complete and debug code that locates, modifies, and adds HTML elements and attributes.
 
-## [Link](./example.js)
+## [Overview](./example.html)
+includes: getElementByld; getElementsByTagName; getElementsByClassName;
+setAttribute; createElement

@@ -1,10 +1,9 @@
-const inputText = document.getElementById("input-box");
-
 function alertOnChange(event){
     alert(event.target.value)
 }
 
-inputText.addEventListener("change", alertOnChange)
+// const inputText = document.getElementById("input-box");
+// inputText.addEventListener("change", alertOnChange)
 
 /*
 an on change event fires when
