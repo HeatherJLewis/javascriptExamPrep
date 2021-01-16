@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        forms
+    </title>
+</head>
+<body>
+    <div>
+        <h1>
+            An Interesting Little Form
+        </h1>
+        <form onsubmit="mySubmit()" action="" method="POST" id="myForm">
+            <!-- onSubmit only works on the form tag -->
+            <label for="username">
+                Username
+                <input id="username" name="username" type="text">
+            </label>
+            <label for="user-age">
+                Age
+                <input id="userAge" type="text" name="userAge">
+            </label>
+            <label for="password">
+                Password
+                <input type="password" id="password" name="password">
+            </label>
+            <label for="favourite-pet">
+                Favourite Pet
+                <select name="pet" id="best-pet">
+                    <option value="dog">dog</option>
+                    <option value="fish">fish</option>
+                    <option value="cat">cat</option>
+                </select>
+            </label>
+            <button type="submit">
+                Submit Button
+            </button>
+            <button type="reset">
+                Reset Button
+            </button>
+            <button>
+                My Button
+            </button>
+        </form>
+    </div>
+    <script src="./example1.js"></script>
+</body>

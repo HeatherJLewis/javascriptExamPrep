@@ -1,5 +1,5 @@
 # Describe the form submission process.
 
-## [onsubmit;](./example1.js)
-## [understand post vs get;](./example2.js)
-## [understand potential targets for submission;](./example3.js)
+## [onsubmit;](../SectionA/example.html)
+## [understand post vs get;](./example1.md)
+## [understand potential targets for submission;](./example.html)
