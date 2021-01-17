@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        post
+    </title>
+</head>
+<body>
+    <form id="bbc-form" action="" method="POST">
+        <label for="article-name">
+            Article
+            <input type="text" id="article-name" name="articleName">
+        </label>
+        <label for="article-id">
+            Article Id
+            <input type="text" id="article-id" name="articleId">
+        </label>
+        <label for="author-name">
+            Author
+            <input type="text" id="author-name" name="authorName" value="Alan Smithee">
+        </label>
+        <label for="article-type">
+            Article Type
+            <select id="artice-type" name="articleType">
+                <option value="uk">UK</option>
+                <option value="world">World</option>
+                <option value="business">Business</option>
+                <option value="Politics">Politics</option>
+                <option value="Tech">Tech</option>
+            </select>
+        </label>
+        <label for="article-content">
+            Article Content
+            <input type="text" id="article-content" name="articleContent">
+        </label>
+        <button id="submit-button" type="submit" onclick="validateInfo(event)" target="_self">Submit</button>
+    </form>
+    <a href='https://www.bbc.co.uk' target="_blank">Next Page</a>
+    <script src="./script.js"></script>
+</body>

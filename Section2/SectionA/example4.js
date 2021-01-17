@@ -30,7 +30,7 @@ console.log(stringA.replace('o', '*')); // replaces first instance of o
 
 console.log(stringA.search("lo "));
 
-console.log(stringA.slice(3)); // does not mutate original string -> slice after the 4th character
+console.log("slice 3", stringA.slice(3)); // does not mutate original string -> slice after the 4th character
 console.log("HERE", stringA.slice(3, 8)); // slices after the 4th character and after the 8th character so it does not include the character at index 3 or at index 8
 
 console.log(stringA.split()); // does not mutate original string

@@ -27,7 +27,7 @@ const switchFunction = (expression) => {
             return console.log('bananas')
         default:
             console.log("no fruit for you!");
-            break;
+            // break; only needed if the default is not the last case in the switch block
     };
 }
 

@@ -29,6 +29,7 @@ console.log(numbers.indexOf(8)); // output -> -1
 
 const animals = ['Dodo', 'Tiger', 'Penguin', 'Dodo'];
 
+console.log("indexOf", animals.indexOf('Dodo'));
 console.log(animals.lastIndexOf('Dodo'));
 // expected output: 3
 

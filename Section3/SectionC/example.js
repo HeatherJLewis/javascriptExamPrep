@@ -67,7 +67,7 @@ for (const thing of array1){
 
 // for ... in : loops over objects
 const object1 = { a: "hello", b: "goodbye"};
-for (const property in object1){
-    console.log(property);
-    console.log(object1[property]);
+for (const key in object1){
+    console.log(key);
+    console.log(object1[key]);
 };

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        get
+    </title>
+</head>
+<body>
+    <form action="https://warehouse.co.uk/searchDatabase" method="GET">
+        <label for="item-id">
+            Item ID
+            <input id="item-id" type="text" name="itemId">
+        </label>
+        <label for="item-name">
+            Item Name
+            <input id="item-name" type="text" name="itemName">
+        </label>
+        <label for="item-category">
+            Item Category
+            <select name="itemCategory" id="item-category">
+                <option value="stuffed">Stuffed</option>
+                <option value="fuzzy">fuzzy</option>
+                <option value="warm">warm</option>
+                <option value="cold">cold</option>
+                <option value="prickly">prickly</option>
+            </select>
+        </label>
+        <label for="item-description">
+            <textarea name="itemDescription" id="item-description" cols="30" rows="10"></textarea>
+        </label>
+        <p>
+            GET method,
+            url: https://warehouse.co.uk/searchDatabase?itemId=12345&&itemName=gorilla
+            body: empty
+        </p>
+    </form>
+</body>
